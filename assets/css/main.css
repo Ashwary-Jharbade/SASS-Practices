@@ -1,0 +1,342 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Bootstap flex property start */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-xs-row {
+  width: 10px;
+}
+.flex-sm-row {
+  width: 30px;
+}
+.flex-md-row {
+  width: 50px;
+}
+.flex-lg-row {
+  width: 100px;
+}
+.flex-xl-row {
+  width: 150px;
+}
+.flex-xxl-row {
+  width: 200px;
+}
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flex-xs-row-reverse {
+  width: 10px;
+}
+.flex-sm-row-reverse {
+  width: 30px;
+}
+.flex-md-row-reverse {
+  width: 50px;
+}
+.flex-lg-row-reverse {
+  width: 100px;
+}
+.flex-xl-row-reverse {
+  width: 150px;
+}
+.flex-xxl-row-reverse {
+  width: 200px;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-xs-column {
+  width: 10px;
+}
+.flex-sm-column {
+  width: 30px;
+}
+.flex-md-column {
+  width: 50px;
+}
+.flex-lg-column {
+  width: 100px;
+}
+.flex-xl-column {
+  width: 150px;
+}
+.flex-xxl-column {
+  width: 200px;
+}
+.flex-column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.flex-xs-column-reverse {
+  width: 10px;
+}
+.flex-sm-column-reverse {
+  width: 30px;
+}
+.flex-md-column-reverse {
+  width: 50px;
+}
+.flex-lg-column-reverse {
+  width: 100px;
+}
+.flex-xl-column-reverse {
+  width: 150px;
+}
+.flex-xxl-column-reverse {
+  width: 200px;
+}
+
+/* Bootstap flex property end */
+/* Bootstap flex property start */
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-xs-start {
+  width: 10px;
+}
+.justify-content-sm-start {
+  width: 30px;
+}
+.justify-content-md-start {
+  width: 50px;
+}
+.justify-content-lg-start {
+  width: 100px;
+}
+.justify-content-xl-start {
+  width: 150px;
+}
+.justify-content-xxl-start {
+  width: 200px;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.justify-content-xs-end {
+  width: 10px;
+}
+.justify-content-sm-end {
+  width: 30px;
+}
+.justify-content-md-end {
+  width: 50px;
+}
+.justify-content-lg-end {
+  width: 100px;
+}
+.justify-content-xl-end {
+  width: 150px;
+}
+.justify-content-xxl-end {
+  width: 200px;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-xs-center {
+  width: 10px;
+}
+.justify-content-sm-center {
+  width: 30px;
+}
+.justify-content-md-center {
+  width: 50px;
+}
+.justify-content-lg-center {
+  width: 100px;
+}
+.justify-content-xl-center {
+  width: 150px;
+}
+.justify-content-xxl-center {
+  width: 200px;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-xs-between {
+  width: 10px;
+}
+.justify-content-sm-between {
+  width: 30px;
+}
+.justify-content-md-between {
+  width: 50px;
+}
+.justify-content-lg-between {
+  width: 100px;
+}
+.justify-content-xl-between {
+  width: 150px;
+}
+.justify-content-xxl-between {
+  width: 200px;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-xs-around {
+  width: 10px;
+}
+.justify-content-sm-around {
+  width: 30px;
+}
+.justify-content-md-around {
+  width: 50px;
+}
+.justify-content-lg-around {
+  width: 100px;
+}
+.justify-content-xl-around {
+  width: 150px;
+}
+.justify-content-xxl-around {
+  width: 200px;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.justify-content-xs-evenly {
+  width: 10px;
+}
+.justify-content-sm-evenly {
+  width: 30px;
+}
+.justify-content-md-evenly {
+  width: 50px;
+}
+.justify-content-lg-evenly {
+  width: 100px;
+}
+.justify-content-xl-evenly {
+  width: 150px;
+}
+.justify-content-xxl-evenly {
+  width: 200px;
+}
+
+/* Bootstap flex property end */
+/* Bootstap flex property start */
+.float-start {
+  float: left;
+}
+.float-xs-start {
+  width: 10px;
+}
+.float-sm-start {
+  width: 30px;
+}
+.float-md-start {
+  width: 50px;
+}
+.float-lg-start {
+  width: 100px;
+}
+.float-xl-start {
+  width: 150px;
+}
+.float-xxl-start {
+  width: 200px;
+}
+.float-end {
+  float: right;
+}
+.float-xs-end {
+  width: 10px;
+}
+.float-sm-end {
+  width: 30px;
+}
+.float-md-end {
+  width: 50px;
+}
+.float-lg-end {
+  width: 100px;
+}
+.float-xl-end {
+  width: 150px;
+}
+.float-xxl-end {
+  width: 200px;
+}
+.float-none {
+  float: none;
+}
+.float-xs-none {
+  width: 10px;
+}
+.float-sm-none {
+  width: 30px;
+}
+.float-md-none {
+  width: 50px;
+}
+.float-lg-none {
+  width: 100px;
+}
+.float-xl-none {
+  width: 150px;
+}
+.float-xxl-none {
+  width: 200px;
+}
+
+/* Bootstap flex property end */
+
+/*# sourceMappingURL=main.css.map */

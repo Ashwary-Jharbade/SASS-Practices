@@ -1,0 +1,34 @@
+/* Bootstap flex property start */
+
+$type : (
+    start : flex-start, 
+    end : flex-end,
+    center : center,
+    between : space-between,
+    around : space-around,
+    evenly : space-evenly
+);
+
+$size : (
+    xs : 10px,
+    sm : 30px,
+    md : 50px,
+    lg : 100px,
+    xl : 150px,
+    xxl : 200px,
+);
+
+.justify-content {
+    @each $key,$value in $type{
+        &-#{$key}{
+            justify-content: $value;
+        }
+        @each $var1,$var2 in $size {
+            &-#{$var1}-#{$key} {
+                width: $var2;
+            }
+        }
+    }
+}
+
+/* Bootstap flex property end */

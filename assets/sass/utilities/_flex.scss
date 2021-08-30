@@ -1,0 +1,33 @@
+/* Bootstap flex property start */
+
+$direction : (
+    row : row, 
+    row-reverse : row-reverse,
+    column : column, 
+    column-reverse : column-reverse
+);
+
+$size : (
+    xs : 10px,
+    sm : 30px,
+    md : 50px,
+    lg : 100px,
+    xl : 150px,
+    xxl : 200px,
+);
+
+.flex {
+    @each $key,$value in $direction{
+        &-#{$key}{
+            display:flex;
+            flex-direction: $value;
+        }
+        @each $var1,$var2 in $size {
+            &-#{$var1}-#{$key} {
+                width: $var2;
+            }
+        }
+    }
+}
+
+/* Bootstap flex property end */
